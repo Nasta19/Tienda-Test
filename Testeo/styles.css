@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 725px) {
+
+    header nav ul {
+        margin-right: 8vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+    }
+
+    header img {
+        width: 120px;
+        height: 30px;
+    }
+
+    body .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: start;
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+        height: 100vh;
+    }
+
+    .banner .port {
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h2 {
+        padding-left: 5vw;
+    }
+
+    .port p {
+        font-weight: 400;
+        font-size: 100px;
+        margin-bottom: 2.5vh;
+    }
+}
+
+/*pagina de inicio y header*/
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090E34;
+    color: white;
+    height: 10vh;
+}
+
+header ul {
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+header li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header img {
+    margin-left: 10vw;
+    width: 120px;
+    height: 30px;
+}
+
+.banner {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(133, 133, 236, 1) 100%);
+}
+
+.port {
+    margin-left: 10vw;
+    width: 45vw;
+}
+
+.port h3 {
+    font-size: 1em;
+    margin-bottom: 2.5vh;
+    color: rgb(46, 46, 240);
+}
+
+.port h2 {
+    font-size:1.8em;
+    font-weight: bold;
+    margin-right: 13vw;
+    margin-bottom: 2.5vh;
+}
+
+.port p {
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 2.5vh;
+}
+
+button {
+    padding: 1vw;
+    color: white;
+    background-color: rgb(46, 46, 240);
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.imageBanner img {
+    width: 50vw;
+    padding-left: 3vw;
+}
+
+/*featured products*/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
